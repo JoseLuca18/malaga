@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8FD;
+    font-family: Itim;
+}
+.container img {
+    width: auto;
+    padding: 2px;
+    height: 350px;
+    border-radius:20% ;
+    
+}
+.producto{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 4px solid #EE97CF;
+    border-radius: 20%;
+}
+.h2{
+    text-align: center;
+    padding: 5px;
+    color:#907287;
+    border: none;
+    width: auto;
+    
+}
+
+.precio{
+    width: auto;
+    text-align: center;
+    padding: 3px;
+    color:#B58EA7;
+    font-weight: bold;
+}
+
+.h2-precio{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+}
+
+.menu-principal{
+    display: flex;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 2rem;
+    border: 3px solid #B58EA7;
+    border-radius: 35%;
+    padding: 10px;
+    color: #907287;
+}
+.menu-princi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
