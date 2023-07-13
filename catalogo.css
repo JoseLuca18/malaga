@@ -15,13 +15,13 @@ html, body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 100vh;
   }
 .container{
     display: flex;
     flex-direction: column;
     width: auto;
-    height: auto;
+    height: 100%;
     margin:0;
   
   
